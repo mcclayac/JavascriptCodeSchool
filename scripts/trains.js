@@ -83,7 +83,40 @@ console.log ("sum of cubes 1 " + sumOfCubes(4,9));
 
 console.log ("sum of cubes 2 " + sumOfCubes(5,6));
 
-countE();
+//  countE();
+
+
+
+function newArray () {
+
+
+// Arrays
+    var passengers = ["Tony McClay", "Maria Dennis", "Albert Eistien", "Donald Trump",
+        "Tyanne Cantuaria", "Maxine McClay"];
+
+    var mom = passengers[5];
+    console.log("mom : " + mom)
+    console.log("Lengat of passengers :" + passengers.length );
+    var poped = passengers.pop();
+    console.log("Popped : " + poped )
+    console.log("Lengat of passengers :" + passengers.length );
+    passengers.push("tony McCLy");
+
+    var numberList = [ 1,2,3,4,5,6,7,6,5,4,3,2,1];
+    console.log("numberlist");
+    numberList[5] = undefined;
+    for (var  i = 0 ; i < numberList.length ; i++) {
+
+        console.log("Number list value : " + i + " Value : " + numberList[i]);
+    }
+
+}
+
+
+newArray();
+
+
+
 
 
 
