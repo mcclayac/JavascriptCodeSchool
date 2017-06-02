@@ -28,6 +28,9 @@ for ( var numTurbine = 1 ; numTurbine <= totalGen; numTurbine = numTurbine + 1) 
      console.log("    Tony McClay");
      console.log("   These nuts ");
 
+     console.log("   i like this tool");
+
+
     if ( numTurbine % 2 == 1 ) {
         console.log("Generator #" + numTurbine + " is off.");
     } else if ( numTurbine <= 4 ) {
