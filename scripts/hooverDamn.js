@@ -26,6 +26,7 @@ var totalMW = 0;
 
 for ( var numTurbine = 1 ; numTurbine <= totalGen; numTurbine = numTurbine + 1) {
      console.log("    Tony McClay");
+     console.log("   These nuts ");
 
     if ( numTurbine % 2 == 1 ) {
         console.log("Generator #" + numTurbine + " is off.");
